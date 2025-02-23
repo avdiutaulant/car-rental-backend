@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node rent",
-    "start:watch": "nodemon rent"
+    "start:watch": "nodemon rent",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "mongodb": "^6.13.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.2"
   }
 }

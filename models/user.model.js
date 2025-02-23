@@ -1,4 +1,3 @@
-
 const userSchema = {
   fullName: String,
   email: String,
