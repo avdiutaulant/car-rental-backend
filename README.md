@@ -18,7 +18,7 @@ Ensure you have the following installed:
 Follow these steps to set up the development environment:
 
 1. Clone the repository:
-   
+
 - git clone https://github.com/avdiutaulant/car-rental-backend.git
 
 2. Navigate to the project directory
@@ -35,12 +35,13 @@ Follow these steps to set up the development environment:
 
 5. Copy the `.env.example` file to `.env` and replace the placeholder values with your actual configuration details.
 
-    For Windows
+   For Windows
+
 - copy .env.example .env
 
-    For Linux and MacOS
+  For Linux and MacOS
 
-- cp .env.example .env 
+- cp .env.example .env
 
 6. Start the application
 
@@ -62,4 +63,3 @@ Exposed endpoints:
 
 - GET `/api/rental-cars`: Retrieves a list of rental cars.
 - POST `/api/rental-cars`: Creates a new rental car.
-

@@ -4,7 +4,7 @@ const {
   InvalidCredentialsError,
   UserNotFoundError,
   InvalidYearError,
-  InvalidNumberOfSeatsError
+  InvalidNumberOfSeatsError,
 } = require('../errors/validation.error');
 
 function handleError(res, error) {

@@ -32,17 +32,17 @@ class UserNotFoundError extends Error {
 
 class InvalidYearError extends Error {
   constructor(message) {
-      super(message);
-      this.name = 'InvalidYearError';
-      this.statusCode = 409;
+    super(message);
+    this.name = 'InvalidYearError';
+    this.statusCode = 409;
   }
 }
 
 class InvalidNumberOfSeatsError extends Error {
   constructor(message) {
-      super(message);
-      this.name = 'InvalidNumberOfSeatsError';
-      this.statusCode = 409;
+    super(message);
+    this.name = 'InvalidNumberOfSeatsError';
+    this.statusCode = 409;
   }
 }
 
@@ -52,5 +52,5 @@ module.exports = {
   InvalidCredentialsError,
   UserNotFoundError,
   InvalidYearError,
-  InvalidNumberOfSeatsError
+  InvalidNumberOfSeatsError,
 };
