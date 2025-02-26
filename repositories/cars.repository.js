@@ -3,7 +3,7 @@ const { getCollection } = require('../helpers/database.helper');
 async function getCars(query) {
   const cars = await getCollection('cars');
 
-  return await cars.find(query).sort({ price_per_day: 1 }).toArray();
+  return await cars.find(query).sort({ pricePerDay: 1 }).toArray();
 }
 
 async function createCar(car) {
